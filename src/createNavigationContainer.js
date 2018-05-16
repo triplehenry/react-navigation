@@ -199,11 +199,11 @@ export default function createNavigationContainer(Component) {
 
       if (__DEV__ && !this.props.detached) {
         if (_statefulContainerCount > 0) {
-          console.error(
-            `You should only render one navigator explicitly in your app, and other navigators should by rendered by including them in that navigator. Full details at: ${docsUrl(
-              'common-mistakes.html#explicitly-rendering-more-than-one-navigator'
-            )}`
-          );
+//           console.error(
+//             `You should only render one navigator explicitly in your app, and other navigators should by rendered by including them in that navigator. Full details at: ${docsUrl(
+//               'common-mistakes.html#explicitly-rendering-more-than-one-navigator'
+//             )}`
+//           );
         }
       }
       _statefulContainerCount++;
